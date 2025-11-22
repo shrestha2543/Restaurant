@@ -22,4 +22,28 @@
      - Open terminal or command prompt
      - Navigate to the directory containing files.
      - Run the main script( cafe.py ) using Python Interpreter.
+       
+5) Instructions for testing:
+   * View Menu:
+     - Input:Enter 1
+     - Output:Displays the list of all items from the menu
+   * Order items:
+     - Input:Enter 2 and then enter 12,9
+     - Output: Displays the bill for Chicken Tikka and Chicken 65
+   * Order Items(Error):
+     - Input:Enter 2 and then enter 12,abc
+     - Output:Displays the message !!!Invalid input.Please enter only integers separated by commas and restarts the main menu loop
+   * Update Menu:
+     - Input:Enter 3 and provide a new ID,name and price
+     - Output:Prints the success message and update the menu.Verify by entering 1(View Menu)
+   * Add Review:
+     - Input:Enter 4 and add a review
+     - Output: Displays the review and prints the Thank You message
+   * Exit:
+     - Input:Enter 5
+     - Output:Prints the Thank You message and terminates the program.
+   * Invalid choice:
+     - Input:Enter 0 or 6
+     - Output: Displays the message !!!Please enter a valid choice between 1 and 5!!! and restarts the Menu loop
+   
   
